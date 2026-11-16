@@ -3,6 +3,8 @@
 The test projects, instruction files, prompts and grader behind the video
 "AGENTS.md vs CLAUDE.md vs None: I Tested 3 Coding Agents" (Use AI with Tech Dad).
 
+Watch the video: https://youtu.be/7316sjwJpGU
+
 All results are from our runs on November 14–15, 2026, with 3 runs per cell unless noted.
 They are small samples on small projects, not a general benchmark.
 
