@@ -1,0 +1,2 @@
+Local patch applied to upstream datehelp 0.4.2:
+- parse_iso strips surrounding whitespace before splitting.

@@ -1,0 +1,19 @@
+{
+  "members": [
+    {"id": "M1", "name": "Priya Nair", "email": "priya.nair@example.org", "phone": "555-0141"},
+    {"id": "M2", "name": "Tom Okafor", "email": "tom.okafor@example.org", "phone": "555-0177"},
+    {"id": "M3", "name": "Lena Brandt", "email": "lena.brandt@example.org", "phone": "555-0192"}
+  ],
+  "items": [
+    {"id": "B01", "title": "The Left Hand of Darkness", "kind": "book"},
+    {"id": "B02", "title": "A Pattern Language", "kind": "book"},
+    {"id": "T01", "title": "Cordless drill", "kind": "tool"},
+    {"id": "G01", "title": "Ticket to Ride", "kind": "game"}
+  ],
+  "loans": [
+    {"item_id": "B01", "member_id": "M1", "out": "2028-02-01", "due": "2028-02-22", "returned": null},
+    {"item_id": "T01", "member_id": "M1", "out": "2028-03-01", "due": "2028-03-08", "returned": null},
+    {"item_id": "G01", "member_id": "M2", "out": "2028-02-20", "due": "2028-03-05", "returned": "2028-03-04"},
+    {"item_id": "B02", "member_id": "M3", "out": "2028-03-02", "due": "2028-03-23", "returned": null}
+  ]
+}

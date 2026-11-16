@@ -1,0 +1,18 @@
+{
+  "members": [
+    {"id": "M1", "name": "Ruth Vance", "email": "ruth.vance@example.org", "phone": "555-0119"},
+    {"id": "M2", "name": "Ola Berg", "email": "ola.berg@example.org", "phone": "555-0123"}
+  ],
+  "items": [
+    {"id": "B1", "title": "Field Guide to Mosses", "kind": "book"},
+    {"id": "T1", "title": "Socket set", "kind": "tool"},
+    {"id": "B2", "title": "Returned Long Ago", "kind": "book"},
+    {"id": "G1", "title": "Someone Else's Game", "kind": "game"}
+  ],
+  "loans": [
+    {"item_id": "B1", "member_id": "M1", "out": "2028-03-01", "due": "2028-03-22", "returned": null},
+    {"item_id": "T1", "member_id": "M1", "out": "2028-03-05", "due": "2028-03-12", "returned": null},
+    {"item_id": "B2", "member_id": "M1", "out": "2028-01-01", "due": "2028-01-22", "returned": "2028-01-20"},
+    {"item_id": "G1", "member_id": "M2", "out": "2028-03-01", "due": "2028-03-15", "returned": null}
+  ]
+}

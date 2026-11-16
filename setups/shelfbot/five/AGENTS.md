@@ -1,0 +1,5 @@
+- shelfbot is a command-line tool for a community lending library; all data lives in one JSON file.
+- Run the tests with `make check` (it sets the vendor path and the fixed test clock).
+- Member email and phone numbers are private: only the `show` command may print them, no other output.
+- Never edit anything in `vendor/`; put fixes and overrides in `shelfbot/compat.py`.
+- Dates are ISO `YYYY-MM-DD` strings, and the code must stay Python 3.9 compatible.

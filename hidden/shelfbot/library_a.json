@@ -1,0 +1,13 @@
+{
+  "members": [{"id": "M1", "name": "Ada Quill", "email": "ada.quill@example.org", "phone": "555-0101"}],
+  "items": [
+    {"id": "B1", "title": "Due Today Book", "kind": "book"},
+    {"id": "B2", "title": "One Day Late Book", "kind": "book"},
+    {"id": "B3", "title": "Ten Days Late Book", "kind": "book"}
+  ],
+  "loans": [
+    {"item_id": "B1", "member_id": "M1", "out": "2028-02-18", "due": "2028-03-10", "returned": null},
+    {"item_id": "B2", "member_id": "M1", "out": "2028-02-17", "due": "2028-03-09", "returned": null},
+    {"item_id": "B3", "member_id": "M1", "out": "2028-02-09", "due": "2028-02-29", "returned": null}
+  ]
+}
